@@ -1,0 +1,162 @@
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(229, 23%, 23%);
+  padding-bottom: 2vmax;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  padding-top: 1vmax;
+  margin-bottom: 0;
+}
+
+span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  padding-left: 2%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 25rem;
+  position: relative;
+}
+
+.topBG {
+  position: absolute;
+  z-index: -2;
+  right: 40rem;
+  top: -15rem;
+}
+
+.cardPattern {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.profileImage {
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 5px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -4rem;
+}
+
+.profileInfo {
+  position: relative;
+  top: -2rem;
+}
+
+.profileBox {
+  background-color: #FFF;
+}
+
+.socialInfo {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: hsl(0, 0%, 59%);
+  padding: 1rem 2rem 2rem 1rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.socialInfo h1 {
+  padding-bottom: 0;
+}
+
+.bottomBG {
+width: 60rem;
+position: absolute;
+top: 25rem;
+left: 10rem;
+z-index: -2;
+}
+
+
+
+
+
+
+@media (max-width: 1100px) {
+
+  .topBG {
+    position: absolute;
+    z-index: -2;
+    right: 10rem;
+    top: -40rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20% 15%;
+    position: relative;
+  }
+
+  .cardPattern {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .profileImage {
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -4rem;
+  }
+
+  .profileInfo {
+    position: relative;
+    top: -2rem;
+  }
+
+  .profileBox {
+    background-color: #FFF;
+  }
+
+  .socialInfo {
+    padding: 1rem 2rem 2rem 1rem;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .socialInfo h1 {
+    padding-bottom: 0;
+  }
+
+  .bottomBG {
+  width: 40rem;
+  position: absolute;
+  top: 15rem;
+  left: 6rem;
+  z-index: -2;
+  }
+
+}
